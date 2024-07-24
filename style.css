@@ -1,0 +1,178 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #1f2937;
+    align-items: center;
+    height: 50px;
+}
+
+.header #header-text{
+    display: flex;
+    gap: 10px;
+}
+
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.body-1{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.topL{
+    width: 450px;
+    padding-left: 60px;
+}
+
+.topL h3{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+    padding-bottom: 10px;
+}
+
+.topL p, .header p{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+.topL p{
+    padding-bottom: 10px;
+}
+
+.topL button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-width: 0px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.imgStock{
+    width: 400px;
+    height: 200px;
+    background-color: #e5e7eb;
+    margin-right: 60px;
+}
+
+.info-section{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.info-section h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: extra-bold;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.box{
+    height:170px;
+    width:170px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.box-text{
+    text-align: center;
+    align-items: center;
+    width: 170px;
+}
+
+.quote{
+    height: 300px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteText{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+}
+
+.person{
+    font-weight: bold;
+    text-align: right;
+}
+
+.call{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callbox{
+    background-color: #3882f6;
+    width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.calltext{
+    color: white;
+    font-weight: 100;
+}
+
+.call button{
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer{
+    height: 50px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
